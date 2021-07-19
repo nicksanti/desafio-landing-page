@@ -1,0 +1,128 @@
+body{
+    margin: 0; 
+    font-family: 'Open Sans', sans-serif;
+}
+#topo{
+    background: url('imagens/back.jpeg') no-repeat center top; 
+    padding-bottom: 40px;
+    background-size: cover;
+}
+
+.logo img{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.conteudo{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.conteudo div{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.conteudo h3, .info h3{
+    color: #40dee8;
+    text-align: center;
+    font-size: 24px;
+}
+.conteudo p{
+    color: #ffffff;
+    text-align: center;
+}
+.formulario{
+    background: #40dee8;
+    border: #99079b solid 3px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.formulario input[type="text"], .formulario input[type="email"], .formulario input[type="tel"], .formulario select{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgb(0 0 0 / 75%);
+}
+.formulario label{
+    display: block;
+}
+.formulario input[type="submit"]{
+    width: 80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background: #99079b;
+    border: none;
+    padding: 10px 0;
+    border-radius: 200px;
+    color: #ffffff;
+}
+.destaque{
+    color: #ffffff;
+}
+.aceite{
+    font-size: 14px;
+}
+.conteudo-bottom{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 4px #40dee8;
+    padding: 20px;
+}
+#baixo{
+    background: #690565;
+    padding: 20px 0;
+}
+.info{
+    text-align: center;
+    color: #ffffff;
+}
+.vantagens{
+    overflow: hidden;
+}
+.vantagens div{
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+}
+.vantagens img{
+    display: block;
+    margin: 0 auto;
+}
+.vantagens p{
+    text-align: center;
+    color: #ffffff;
+}
+#rodape{
+    background: #40dee8;
+    padding: 4px 0;
+}
+.nick{
+    
+}
+.nick b{
+    color: #24448c;
+}
+.nick h4{
+    color: #99079b;
+}
+.nick div{
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 496px){
+    .conteudo div{
+        width:100%;
+    }
+    .vantagens div{
+        width: 100%;
+    }
+}
